@@ -1,0 +1,7 @@
+mongo-binari-windows-version: mongodb-win32-x86_64-2.7.1.zip
+mongo-binari-macos-version: mongodb-osx-x86_64-2.7.1.tgz
+mongo-binari-linux-version: mongodb-linux-x86_64-2.7.1.tgz
+directory-name-for-windows: win32
+directory-name-for-macos: osx
+directory-name-for-linux: linux
+root-dir: mongo-repo/
