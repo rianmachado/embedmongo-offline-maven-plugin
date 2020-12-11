@@ -56,9 +56,9 @@ This plug-in allows you to start and stop an instance of MongoDB from the binary
 
 * The version defined in your pom.xml, Example: `<version>2.7.1</version>` should be identical to the version of the MongoDB binary file available at: embedmongo-offline-maven-plugin `\src\main\resources\mongo-repo`. Find the MongoDB binary based on your operating system.
 
-- Windows https://www.mongodb.org/dl/win32/x86 
-- Linux   https://www.mongodb.org/dl/linux/x86
-- MacOs   https://www.mongodb.org/dl/osx/x86
+** Windows https://www.mongodb.org/dl/win32/x86 
+** Linux   https://www.mongodb.org/dl/linux/x86
+** MacOs   https://www.mongodb.org/dl/osx/x86
 
 * By default, the `start` goal is bound to `test-compile`, the `stop` goal is bound to `post-integration-test`. You can of course bind to different phases if required.
 * If you omit/forget the `stop` goal, any Mongo process spawned by the `start` goal will be stopped when the JVM terminates.
