@@ -44,10 +44,6 @@ This plug-in allows you to start and stop an instance of MongoDB from the binary
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 		</plugins>
 	</build>
 ```
