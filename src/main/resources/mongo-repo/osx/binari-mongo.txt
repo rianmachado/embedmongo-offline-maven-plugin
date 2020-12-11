@@ -1,1 +1,1 @@
-mongodb-osx-x86_64-3.3.1.tgz
+mongodb-osx-x86_64-2.7.1.tgz
